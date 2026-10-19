@@ -1,0 +1,110 @@
+.left-section{
+
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger{
+    height:20px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.logo{
+    height:20px;
+}
+.middle-section{
+
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    border-width:1px;
+    display: flex;
+
+    
+    
+    
+
+}
+.search-bar{
+    height:34px;
+    padding-left:12px;
+    flex:1;
+    border-style:solid;
+
+    
+    
+}
+.search-button{
+    height:40px;
+    width:66px;
+    margin-left:-1px;
+    border-style: solid;
+    
+    
+
+
+}
+.voice-button{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    border:none;
+}
+.search{
+    height:20px;
+}
+.voice{
+    height:20px;
+
+}
+.right-section{
+    width:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.upload{
+    height:20px;
+}
+.apps{
+    height:20px;
+}
+.notify{
+    height:20px;
+}
+.notification{
+    position: relative;
+}
+.absolute{
+    position:absolute;
+    top:-2px;
+    right:-2px;
+    background-color: red;
+    color:white;
+    border-radius:10px;
+    padding-right:4px;
+    padding-left:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    font-size:10px;
+}
+.profile{
+    height:40px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    background-color: white;
+    top:0;
+    right:0;
+    left:0;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(226, 218, 218);
+}

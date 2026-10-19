@@ -1,0 +1,25 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    width:72px;
+    background-color: white;
+
+}
+
+.sidebar-link{
+    height:72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-link:hover{
+    background-color: grey;
+}
+
+.sidebar-link img{
+    height:24px;
+} 
